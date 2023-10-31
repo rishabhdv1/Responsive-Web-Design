@@ -9,14 +9,21 @@
         <link rel="stylesheet" href="./css/style.css">
         <title>IDEAL-Login Page</title>
         <style>
-            
             header{
                 height: 80px;
                 background: #432460;
             }
+            nav .r_nav a{
+                height: 80px;
+                line-height: 80px;
+            }
+            .active{
+                background: #573a70;
+            }
         </style>
     </head>
     <body>
+        
         <div class="container r_cont r_tbdr p-0">
             <header class="r_tbdr">
                 <div class="row m-0 h-100">
@@ -25,15 +32,25 @@
                     </div>
                     <div class="r_tbdr col-3 p-0"></div>
                     <div class="r_tbdr col-7 p-0">
-                        <ul class="list-unstyled">
-                            <li class="pt-4">
-                                <a class="ps-5 text-decoration-none text-warning" href="#">Home</a>
-                                <a class="ps-5 text-decoration-none text-white" href="#">Services</a>
-                                <a class="ps-5 text-decoration-none text-white" href="#">Our Plans</a>
-                                <a class="ps-5 text-decoration-none text-white" href="#">Tools and Resources</a>
-                                <a class="ps-5 text-decoration-none text-white" href="#"><img class="img-fluid" width="25" src="https://static-00.iconduck.com/assets.00/user-icon-2048x2048-ihoxz4vq.png" alt=""> Nidhi Bokadiya <i class="fa fa-chevron-down"></i></a>
-                            </li>
-                        </ul>
+                        <nav>
+                            <ul class="nav r_nav">
+                                <li class="nav-item">
+                                  <a class="nav-link active text-warning rounded-bottom" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-white bg-success" href="#">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-white bg-warning" href="#">Our Plans</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-white bg-info" href="#">Tools and Resources</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-white bg-primary"><img class="img-fluid" width="25" src="https://static-00.iconduck.com/assets.00/user-icon-2048x2048-ihoxz4vq.png" alt=""> Nidhi Bokadiya <i class="fa fa-chevron-down"></i></a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </header>
@@ -107,10 +124,10 @@
                     <div class="col p-0">
                         <ul class="list-unstyled">
                             <li class="d-flex justify-content-center">
-                                <a class="text-decoration-none" href="#">
+                                <a class="text-decoration-none" href="https://twitter.com/i/flow/login">
                                     <img src="./img/template5.png" alt="">
                                 </a>
-                                <a class="text-decoration-none" href="#">
+                                <a class="text-decoration-none" href="https://www.youtube.com">
                                     <img src="./img/template6.png" alt="">
                                 </a>
                             </li>
